@@ -1,0 +1,14 @@
+body {
+    width: fit-content;
+    min-width: 300px;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: auto max-content;
+    gap: 10px;
+    align-items: center;
+
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+}
